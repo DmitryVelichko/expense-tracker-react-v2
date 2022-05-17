@@ -24,5 +24,7 @@
           <p id="money-minus" class="money minus">-$0.00</p>
         </div>
       </div>
+      <h3>History</h3>
+      <ul id="list" class="list">
   </body>
   </html>
