@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,4 +7,11 @@
     <link rel="stylesheet" href="style.css" />
     <title>Expense Tracker</title>
   </head>
-  <body></body>
+  <body>
+  <h2>Expense Tracker</h2>
+
+<div class="container">
+  <h4>Your Balance</h4>
+  <h1 id="balance">$0.00</h1>
+  </body>
+  </html>
