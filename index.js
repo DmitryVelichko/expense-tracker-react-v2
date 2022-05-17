@@ -13,5 +13,11 @@
 <div class="container">
   <h4>Your Balance</h4>
   <h1 id="balance">$0.00</h1>
+
+  <div class="inc-exp-container">
+        <div>
+          <h4>Income</h4>
+          <p id="money-plus" class="money plus">+$0.00</p>
+        </div>
   </body>
   </html>
