@@ -34,3 +34,10 @@
     margin: 0;
     text-transform: uppercase;
   }
+
+  .inc-exp-container {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+   
+  }
