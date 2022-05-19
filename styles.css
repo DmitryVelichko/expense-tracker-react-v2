@@ -81,3 +81,9 @@ input[type='number'] {
   padding: 10px;
   width: 100%;
 }
+
+.btn {
+  cursor: pointer;
+  background-color: #9c88ff;
+ 
+}
