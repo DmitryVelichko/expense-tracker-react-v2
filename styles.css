@@ -132,5 +132,7 @@ input[type='number'] {
   color: #fff;
   font-size: 20px;
   line-height: 20px;
- 
+  padding: 2px 5px;
+  position: absolute;
+  
 }
