@@ -134,5 +134,7 @@ input[type='number'] {
   line-height: 20px;
   padding: 2px 5px;
   position: absolute;
+  top: 50%;
+  left: 0;
   
 }
