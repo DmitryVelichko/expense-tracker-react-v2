@@ -1,4 +1,5 @@
 import React from 'react';
+import { GlobalContext } from '../context/GlobalState'
 
 const Transaction = ({transaction}) => {
   const sign = transaction.amount < 0 ? '-' : '+';
