@@ -7,7 +7,12 @@ function moneyFormatter(num) {
   return (
     '$ ' +
     p[0]
-      
+      .split('')
+      .reverse()
+      .reduce(function (acc, num, i, orig) {
+        
+    '.' +
+    p[1]
   );
 }
 
