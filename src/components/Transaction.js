@@ -1,10 +1,20 @@
 import React from 'react';
 import { GlobalContext } from '../context/GlobalState'
 
+//Money formatter function
+function moneyFormatter(num) {
+  let p = num.toFixed(2).split('.');
+  return (
+    '$ ' +
+    p[0]
+      
+  );
+}
+
 const Transaction = ({transaction}) => {
 
   const { deleteTransaction } = useContext(GlobalContext);
-  
+
   const sign = transaction.amount < 0 ? '-' : '+';
 
   return (
